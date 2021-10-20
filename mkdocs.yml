@@ -1,0 +1,312 @@
+site_name: DJDP mock
+nav:
+  - Risk & Compliance Feeds:
+    - Overview: index.md
+    - <b>REFERENCE</b>: ref.md
+    - Risk & Compliance Feeds Schemas: schemas.md
+    - Behind Login Reference:
+      - <b>General Reference</b> : gr.md
+      - Feeds' Delivery Schedules: feeds_delivery_bl.md
+      - Checksums: checksums_bl.md
+      - Document Retrieval: document_retrieval_bl.md
+      - CSV Help: csv_help_bl.md
+      - Acronyms: acronyms_bl.md
+      - Branding Guidelines: branding_guidelines_bl.md
+      - <b>Hierarchy Diagrams</b>: hd.md
+      - Adverse Media Entities: adverse_media_entities_hd_bl.md
+      - Cities & Ports: cities_and_ports_hd_bl.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrbmsb_hd_bl.md
+      - Lists for Payments & Transactions Screening Basic: lptsb_hd_bl.md
+      - Lists for Payments & Transactions Screening Core: lptsc_hd_bl.md
+      - State-Owned Companies: soc_hd_bl.md
+      - Watchlist: watchlist_hd_bl.md
+      - <b>XML Feed Schema Reference</b>: xmlschema.md
+      - XML Schemas Overview: xml_schemas_overview_bl.md
+      - Watchlist Standard Schema: ws_schema_bl.md
+      - Watchlist Delta Tracker Schema: wdt_schema_bl.md
+      - Watchlist Denied Party Lists Schema: wdpl_schema_bl.md
+      - Watchlist Reference Mapping Schema: wrm_schema_bl.md
+      - LPTS Basic Schema: lptsb_schema_bl.md
+      - LPTS Core Schema: lptsc_schema_bl.md
+      - SAP BIS Schema: sap_bis_schema_bl.md
+      - State-Owned Companies Schema: soc_schema_bl.md
+      - <b>CSV Feed Schema Reference</b>: csvschema.md
+      - CSV Schemas Overview: csv_schemas_overview_bl.md
+      - Watchlist Standard Schema: csv_watchlist_s_schema_bl.md
+      - Watchlist Delta Tracker Schema: csv_watchlist_dt_schema_bl.md
+      - LPTS Basic Schema: csv_lptsb_schema_bl.md
+      - State-Owned Companies Schema: csv_soc_schema_bl.md
+    - <b>FEEDS</b>: feeds.md
+    - Watchlist:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md 
+    - Lists for Payments & Transactions Screening:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md 
+    - Adverse Media Entities:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md 
+    - State Owned Companies:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md 
+    - MRB & MSB: 
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md
+    - Custom Feeds:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md 
+    - Dual-Use Goods:
+      - <b>Watchlist</b>: w.md
+      - Overview: wo.md
+      - Standard Feed: w_sf.md
+      - Filtered Feed: w_ff.md
+      - Denied Party Lists SAP GTS Feed: w_dpl_sap_gts.md
+      - Delta Tracker Feed: w_dt.md
+      - Profile Statistics Feed: w_psf.md
+      - Reference Mapping Feed: w_rmf.md
+      - Sanctions Control & Ownership Feed: w_sco.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sap_gts.md
+      - Trifecta Feed: w_tf.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis.md 
+      - Watchlist and Adverse Media Entities: w_and_ame.md
+      - Watchlist and State-Owned Companies: w_and_soc.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts.md
+      - Overview: lpts_ov.md
+      - Dow Jones LPTS Basic Feed: lptsbf.md
+      - Dow Jones LPTS Core Feed: lptscf.md
+      - Cities & Ports Feed: candp.md
+      - Iran File Feed: lpts_if.md
+      - Dow Jones Sanctions Linguistic Research - China Feed: lpts_slr_c.md
+      - Dow Jones Sanctions Linguistic Research - Japan Feed: lpts_slr_j.md
+      - <b>Adverse Media Entities</b>: ame.md
+      - Overview: ame_ov.md 
+      - <b>State-Owned Companies</b>: soc.md
+      - State-Owned Companies Feed: soc_ov.md 
+      - <b>MRB & MSB</b>: mrbandmsb.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb.md
+      - Marijuana-Related Businesses Feed: mrb.md
+      - <b>Custom Feeds</b>: cf.md
+      - Custom Feeds: custom.md
+      - <b>Dual-Use Goods</b>: dug.md
+      - Dual-Use Goods Feed: dugf.md  
+    - Behind Login Documentation:
+      - <b>Watchlist</b>: w_bl.md
+      - Standard Feed: w_wsf_bl.md
+      - Filtered Feed: w_ff_bl.md
+      - Denied Party Lists SAP GTS Feed: w_dp_sapgts_bl.md
+      - Delta Tracker Feed: w_dtf_bl.md
+      - \*Profile Statistics Feed: w_psf_bl.md
+      - Reference Mapping Feed: w_rmf_bl.md
+      - Sanctions Control & Ownership Feed: w_scof_bl.md
+      - Sanctions Control & Ownership SAP GTS Feed: w_sco_sapgtsf_bl.md
+      - Trifecta Feed: w_tf_bl.md
+      - SAP Business Integrity Screening (BIS) Feed: w_sap_bis_bl.md
+      - Watchlist and Adverse Media Entities: w_and_ame_bl.md
+      - Watchlist and State-Owned Companies: w_and_soc_bl.md
+      - <b>Lists for Payments & Transactions Screening</b>: lpts_bl.md
+      - Basic and Core Feeds: lpts_bc_bl.md
+      - Cities & Ports Feed: lpts_candp_bl.md
+      - Sanctions Linguistic Research - China Feed: lpts_slr_c_bl.md
+      - Sanctions Linguistic Research - Japan Feed: lpts_slr_j_bl.md
+      - Iran File Feed: lpts_if_bl.md
+      - <b>Adverse Media Entities</b>: ame_bl.md
+      - Adverse Media Entities Feed: ame_ov_bl.md
+      - Watchlist and Adverse Media Entities: ame_wandame_bl.md
+      - <b>State-Owned Companies</b>: soc_bl.md
+      - State-Owned Companies Feed: soc_ov_bl.md
+      - Watchlist and State-Owned Companies: soc_wandsoc.md
+      - <b>MRB & MSB</b>: mrbandmsb_bl.md
+      - Marijuana-Related Businesses & Money Services Business Feed: mrb_and_msb_bl.md
+      - Marijuana-Related Businesses Feed: mrb_bl.md
+      - <b>Custom Feeds</b>: cf_bl.md
+      - Custom Feeds</b>: custom_bl.md
+      - <b>Dual-Use Goods</b>: dualug_bl.md
+      - Dual Use Good Feed: dug_bl.md
+theme:
+  name: material
